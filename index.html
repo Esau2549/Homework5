@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li> 
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact me</a> </li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <hi class="headings">I am <br> Emmanuel Sauceda</hi>
+            <button class="btn">
+                <a href="./assets/Resume.docx.pdf" download="Emmanuel's Resume">Download Resume </a>
+                
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+       <h1 class="headings">ABOUT ME </h1>
+        <div id="pic">
+           <img src="ford-shelby.jpeg" alt="">
+           <div id="intro">
+            <h2>Emmanuel Sauceda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, impedit eveniet ipsa itaque amet consectetur ab. Rerum, doloribus! Beatae architecto quis possimus nobis, amet aliquid. Quas deserunt facilis beatae expedita, necessitatibus ipsa dicta itaque harum? Tempora magni quia aperiam pariatur velit blanditiis iste sequi harum repellat similique, fugit voluptas facere. Nihil nobis dolores ut aut fugiat eius ratione labore, quibusdam, commodi expedita doloribus recusandae quis amet, ea quae! Totam sint voluptatibus sapiente reprehenderit quibusdam minima voluptatum dicta dignissimos mollitia! Vel alias, repellendus aspernatur, minima commodi iusto voluptatum eius dicta eveniet cupiditate aliquam sed vitae quo in ducimus quisquam, ipsum quam.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+       <h1 class="headings">Portfolio</h1>
+       <div class="gallery">
+        <img src="./assets/birthday-project.png">
+        <img src="./assets/Series-ranking.png">
+       </div>
+    </section>
+
+    <section id="experience">
+        <h1 class="headings">Experience/Education</h1>
+        <div class="row">
+            <div class="box">
+                <img src="./assets/skills icon.png">
+                <h1 class="headings">Skills</h1>
+                     <p><ul style="list-style-type:circle;">
+                        <li>Managerial Skills
+                             <ul style="list-style-type: square;">
+                                 <li>Problem Solving </li>
+                       
+                                 <li>Decision Making </li>
+                                 <Li>Leadership</Li>
+                                 <li>Adaptability</li>
+                             </ul>
+                        </li>
+                        <li>Time management</li>
+                        <li>Willingness to learn</li>
+                        <li>Work Ethic</li>
+               </ul>   
+            </div>
+            <div class="box">
+                <img src="./assets/ed and ex icon.jpeg"
+                <h1 class="headings">Education/Experience</h1>
+                <Table border="2">
+                    <!--Table head -->
+                        <thead class="head">
+                            <tr>
+                                <th></th>
+                                <th>Location</th>
+                                <th>Degree/Position</th>
+                                <th>Duration</th>
+                            </tr>
+                        </thead>
+                   <!--Table body-->
+                        <tbody class="body">
+                          <tr>
+                                 <td rowspan="3">Education</td>
+                                 <td>Roger Williams University</td>
+                                 <td>Intro to Engineering Course - Student</td>
+                                 <td>06/27/2017 - 07//21/2017</td>
+                           </tr>
+                           <tr>
+                                <td>Seattle University</td>
+                                <td>Zoology Course - Student</td>
+                                 <td>06/25/2018 - 07/20/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Arizona Western College </td>
+                                 <td>Cs Major-Student</td>
+                                 <td>08/2022 - 05/2024</td>
+                           </tr>
+                            <tr>
+                                <td rowspan="2">Experience</td>
+                                <td>Advance Call Center Technologies</td>
+                                <td>Customer Loyalty Group Representative</td>
+                                <td>07/2022 - 08/2022</td>
+                            </tr>
+                            <tr>
+                                <td>O'reilly Auto Parts</td>
+                                <td>Retail Service Specialist(RSS)</td>
+                                <td>11/2022 - Present</td>
+                            </tr>
+                        </tbody>
+                </Table>  
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="contact"> 
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="Msg" id="msg" cols="30" rows="10" placeholder="Enter your Messsage"></textarea>
+            <input type="submit" value="SEND" id="SEND">
+            
+        </form>
+    </section>
+    <section id="footer">
+        <div class="icon">
+            <img src="./assets/facebook icon 2.png" alt="facebook icon">
+            <img src="./assets/instagram icon.png" alt="instagram icon">
+        </div>
+        <hi >Copywright &copy;2024:Designed by Emmanuel Sauceda</hi>
+    </section>
+
+
+
+</body>
+</html>
